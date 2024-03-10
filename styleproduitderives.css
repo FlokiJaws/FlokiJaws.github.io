@@ -1,0 +1,548 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  	max-width: 50%;  
+  	margin: 40px auto;
+}
+
+.hr{
+	width: 100%;
+	height: 90px;
+}
+
+.texthr {
+	line-height: 1em;
+	position: relative;
+	outline: 0;
+	border: 0;
+	color: black;
+	text-align: center;
+	height: 1.5em;
+	opacity: .5;
+	font-size: 1.8em;
+}
+
+.texthr:before {
+    content: '';
+	background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.texthr:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: #000;
+    background-color: #fbfbff;
+}
+
+.entier{
+	margin-top:60px;
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	background-color: #fbfbff;
+}
+
+.gauche{
+	width: 20%;
+	height: 100%;
+	position: fixed;
+	box-shadow: 1px 0 black;
+	background: url(./img/smooth.jpg);
+	background-size: cover;
+}
+
+.sommairegaming{
+	margin-top: 40px;
+	margin-left: 50px;
+	letter-spacing: 1px;
+
+}
+
+h2{
+	text-align: center;
+	margin-top: 40px;
+}
+
+.titresommaire{
+	text-decoration: none;
+	color: #000;
+}
+
+.droite{
+	width: 80%;
+	height: 100%;
+	margin-left: 20%;
+}
+
+.droite1{
+	width: 100%;
+	height: auto;
+
+}
+
+.titregaming{
+	text-align: center;
+	margin-top: 15px;
+	font-size: 1.1em;
+}
+
+.hrgaming{
+	position: relative;
+	width: 50%;
+	align: center;
+	margin: auto;
+	top: 20px;
+}
+
+.prixgaming{
+	position: relative;
+	margin-top: 50px;
+	margin-left: 25px;
+	width: 50%;
+}
+
+.ttachats{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.achats{
+	width: 250px;
+	height: 400px;
+	margin-bottom: 50px;
+	box-shadow: 0 0 2px gray;
+	border-radius: 3px;
+	transition: 0.3s;
+	background-color: #fff;
+}
+
+.achats:hover{
+	box-shadow: 0 0 8px black;
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+.paniergaming{
+	width: 20px;
+	height: 20px;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.prixpanier{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.imgdiv{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGABYKEY262_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv2{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGABYKEY329_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv3{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGABYKEY441_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv4{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGRKR39122_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv5{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGSDTWRN25269_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv6{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGFIZZ1931_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv7{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGABYBAG441_1.webp);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv8{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGGRO92603_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv9{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGLTWA0004_1.webp);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv10{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGMW640733MHA_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv11{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGSDTWRN25283_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv12{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/accessoires/FIGSDTWRN25223_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv13{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/FIGFRYU95477_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv14{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/FIGFRYU95478_2.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv15{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/FIGFRYU95479_2.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv16{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/FIGTAPR451365600_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv17{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/FIGTAPR451365900_2.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv18{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/FIGTAPR451366500_2.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv19{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/gaara.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv20{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/jiraya.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv21{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/madara.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv22{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/naruto.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv23{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/natsu.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv24{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/figurines/trafalgar.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv25{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN46057_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv26{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN48664_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv27{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN50561_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv28{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN54490_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv29{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN55227_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv30{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN55620_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv31{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN55914_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv32{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN57341_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv33{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN57342_1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv34{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN57650_1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv35{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN57746_1.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv36{
+	width: 100%;
+	height: 70%;
+	background: url(./img/produitderives/pop/FIGFUN57747_1.png		);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.textdiv{
+	width: 100%;
+	height: 30%;
+}
+
+.droite2{
+	width: 100%;
+	height: auto;
+}
+
+.droite2 > .ttachats{
+	margin-top: 40px;
+}
+
+.container {
+  	max-width: 50%;  
+}
+
+.droite3{
+	width: 100%;
+	height: auto;
+}
+
+.droite3 > .ttachats{
+	margin-top: 40px ;
+}
+
+.contenudiv{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+
+.titre_manga{
+	position: relative;
+	top: 45px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.prix{
+	position: relative;
+	top: 65px;
+	left: 30px;
+	font-weight: bold;
+}
+
+.panier{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	left: 85%;
+	top: 45px;
+}
+
+.numerotome{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}
+
+hr{
+	position: relative;
+	width: 50%;
+	align: center;
+	margin: auto;
+	top: 20px;
+}

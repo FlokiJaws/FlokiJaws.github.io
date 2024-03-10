@@ -1,0 +1,174 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.entier{
+	width: 100%;
+	height: 100vh;
+	margin-top: 60px;
+	color: #000;
+	position: absolute;
+}
+
+.divtitre{
+	width: 100%;
+	height: auto;
+	position: relative;
+	margin-top: 20px;
+}
+
+h2{
+	text-align: center;
+	margin: 20px 0;
+	font-weight: 400;
+}
+
+.allpartenaires{
+	width: 70%;
+	height: auto;
+	margin: 0 auto;
+	position: relative;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.partenaires{
+	width: 200px;
+	height: 200px;
+	margin: 20px 30px;	
+	border-radius: 100%;
+	position: relative;
+	box-shadow: 0 0 15px gray;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.partenaires:hover{
+	transform: scale(1.08);
+	cursor: auto;
+}
+
+.imgpartenaires{
+	width: auto;	
+	height: 100px;
+	background: url(./img/partenaires/bandai.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	
+	margin-top: 24%;
+}
+
+.imgpartenaires2{
+	width: auto;
+	height: 100px;
+	background: url(./img/partenaires/bandainamco.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 25%;
+}
+
+.imgpartenaires3{
+	width: auto;
+	height: 70px;
+	background: url(./img/partenaires/banpresto.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 35%;
+}
+
+.imgpartenaires4{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/capcom.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}
+
+.imgpartenaires5{
+	width: auto;
+	height: 25px;
+	background: url(./img/partenaires/difuzed.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 44%;
+}
+
+.imgpartenaires6{
+	width: auto;
+	height: 55px;
+	background: url(./img/partenaires/funko.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 35%;
+}
+
+.imgpartenaires7{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/konami.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}
+
+.imgpartenaires8{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/mihoyo.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}
+
+.imgpartenaires9{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/sega.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}
+
+.imgpartenaires10{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/squareenix.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}
+
+.imgpartenaires11{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/takacorp.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}
+
+.imgpartenaires12{
+	width: auto;
+	height: 30px;
+	background: url(./img/partenaires/purearts.png);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+	margin-top: 40%;
+}

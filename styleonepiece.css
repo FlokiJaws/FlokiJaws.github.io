@@ -1,0 +1,353 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+.entier{
+	width: 100%;
+	height: 100%;
+	margin-top: 80px;
+	background-color: #fff;
+}
+
+.tout_les_achats{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.achats{
+	width: 300px;
+	height: 500px;
+	margin: 20px 30px;	
+	border-radius: 5px;
+	position: relative;
+	box-shadow: 0 0 15px gray;
+	background-color: #fff;
+	transition: 0.5s;
+}
+
+.achats:hover{
+	transform: scale(1.05);
+	box-shadow: 0 0 15px black;
+}
+
+.round {
+    position: absolute;
+    border: 3px solid #000;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+	margin-top: 45px;
+	margin-left: -250px;
+}
+
+span {
+    z-index: 999;
+    height: 2px;
+    margin:1px;
+    width: 15px;
+    background: #000;
+    transition: 0.5s ease;
+}
+
+span:first-child {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 20%;
+    bottom: 33%;
+}
+
+span:nth-child(2) {
+    display: block;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 45%;
+    bottom: 33%;
+}
+
+span:nth-child(3) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 20%;
+    bottom: 54%;
+}
+
+span:nth-child(4) {
+    display: block;
+    position: absolute;
+    transform: rotate(-45deg);
+    left: 45%;
+    bottom: 54%;
+}
+
+.round:hover span:nth-child(1) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(2) {
+    transform: rotate(225deg);
+}
+
+.round:hover span:nth-child(3) {
+    transform: rotate(-225deg);
+}
+
+.round:hover span:nth-child(4) {
+    transform: rotate(-225deg);
+}
+
+.imgdiv{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome1.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv2{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome2.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv3{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome3.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv4{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome4.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv5{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome5.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv6{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome6.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv7{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome7.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv8{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome8.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv9{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome9.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv10{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome10.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv11{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome11.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv12{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome12.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv13{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome13.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv14{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome14.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv15{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome15.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv16{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome16.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv17{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome17.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv18{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome18.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv19{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome19.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.imgdiv20{
+	width: 100%;
+	height: 250px;
+	margin-top: 50px;
+	background: url(./img/onepiece/tome20.jpg);
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.contenudiv{
+	width: 100%;
+	height: 100px;
+	position: absolute;
+}
+
+.titre_manga{
+	position: relative;
+	top: 65px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.prix{
+	position: relative;
+	top: 95px;
+	left: 30px;
+	font-weight: bold;
+}
+
+.panier{
+	width: 20px;
+	height: 20px;
+	position: relative;
+	left: 85%;
+	top: 75px;
+}
+
+hr{
+	position: relative;
+	width: 80%;
+	align: center;
+	margin: auto;
+	top: 30px;
+}
+
+.titreprincipal{
+	margin: 0 auto;
+	background: center / contain no-repeat url(./img/onepiece/titreonepiece.png) ;
+	width: 800px ;
+	height: 150px;
+}
+
+.numerotome{
+	font-weight: bold;
+	text-align: center;
+	margin-top: 20px;
+}

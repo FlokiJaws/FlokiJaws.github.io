@@ -1,0 +1,87 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto', sans-serif;
+}
+
+body{
+	background: rgb(238, 174, 202);
+	background: radial-gradient(circle, rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1.0));
+}
+
+.all_form{
+	margin-left: 25%;
+	margin-top: 8%;
+	width: 800px;
+	height: 500px;
+	display: flex;
+	flex-direction: row;
+	border-radius: 10px;
+	box-shadow: 0 0 10px black;
+	background-color: #fff;
+
+}
+
+.divimg{
+	width: 50%;
+	height: 100%;
+	border-radius: 10px 0px 0px 10px;
+	background: url(./img/form.jpg);
+	background-size: cover;
+	background-position: center;
+	box-shadow: 2px 0px;
+}
+
+.divform{
+	width: 50%;
+	height: 100%;
+	border-radius: 0px 10px 10px 0px;
+}
+
+.form{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 20%;
+	position: relative;
+}
+
+.form_int{
+	padding-top: 15%;
+}
+
+.button{
+	width: 130px;
+	height: 35px;
+	margin-top: 32px;
+	margin-left: 123px;
+	border: none;
+	border-radius: 10px;
+	background-color: #c2deff;
+	letter-spacing: 1px;
+	transition: 0.5s;
+}
+
+.button:hover{
+	transform: scale(1.02);
+	cursor: pointer;
+}
+
+/*Design input*/
+
+.effet{
+	font-size: 18px;
+	padding: 10px 5px 5px 5px;
+	border: none;
+	border-bottom: 1px solid #757575;
+	margin-bottom: 15px;
+	box-sizing: border-box;
+	letter-spacing: 1px;
+}
+
+.effet:focus {outline: none;}
+
+.titre{
+	letter-spacing: 5px;
+	font-size: 1.5em;
+}
